@@ -1,0 +1,61 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, DmCus_U, Data.DB,
+  Vcl.Grids, Vcl.DBGrids;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    CusGrid: TDBGrid;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  CusDm : TCusDm;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  id : integer;
+  name, phone, str : string;
+  balance : double;
+  dm : TCusDm;
+begin
+
+  dm := TCusDm.Create(dm);
+
+  Cusgrid.DataSource := dm.
+
+//with dm do
+//begin
+//    tblCus.First;
+//    while NOT tblCus.Eof do
+//    begin
+//
+//      id := tblCus['ID'];
+//      phone := tblCus['PHONE'];
+//      balance := tblCus['BALANCE'];
+//
+//      str := IntToStr(id) + ' ' + tblCus['NAME'] + ' ' + phone + ' ' + balance.ToString + '$';
+//
+//      tblCus.Next;
+//
+//    end;
+//end;
+
+  dm.Free;
+end;
+
+end.

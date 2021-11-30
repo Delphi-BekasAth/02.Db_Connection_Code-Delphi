@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/11/30 10:11:18.044,=D:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2021/11/30 10:16:54.444,D:\Delphi\DBwithCode\Unit1.dfm=D:\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2021/11/30 10:16:54.444,D:\Delphi\DBwithCode\Unit1.pas=D:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2021/11/30 10:17:09.222,D:\Delphi\DBwithCode\dbWithCode.dproj=D:\Delphi\Project1.dproj</Transaction>
+    <Transaction>2021/11/30 10:17:32.219,=D:\Delphi\DBwithCode\Unit2.pas</Transaction>
+    <Transaction>2021/11/30 10:18:46.350,D:\Delphi\DBwithCode\DmCus_U.dfm=D:\Delphi\DBwithCode\Unit2.dfm</Transaction>
+    <Transaction>2021/11/30 10:18:46.350,D:\Delphi\DBwithCode\DmCus_U.pas=D:\Delphi\DBwithCode\Unit2.pas</Transaction>
+    <Transaction>2021/11/30 10:35:46.351,=D:\Delphi\DBwithCode\Unit2.pas</Transaction>
+    <Transaction>2021/11/30 10:36:09.734,D:\Delphi\DBwithCode\clsCustomer.pas=D:\Delphi\DBwithCode\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
